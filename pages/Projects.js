@@ -41,7 +41,7 @@ export default function Projects (){
                                                         </div>
 
                                                         <div className={styles.newsDiv_block_second_right_bottom}>
-                                                            <p>The BARGAD Foundation's Krushak Vikash Samiti (KVS) in Mayurbhanj, Odisha, supports small farmers with training in advanced agricultural techniques and essential resources to enhance productivity and livelihoods.</p>
+                                                            <p>The BARGAD Foundation&apos;s Krushak Vikash Samiti (KVS) in Mayurbhanj, Odisha, supports small farmers with training in advanced agricultural techniques and essential resources to enhance productivity and livelihoods.</p>
                                                         </div>
                                                 </div>
                                                 
@@ -55,7 +55,7 @@ export default function Projects (){
                                                     </div>
 
                                                     <div className={styles.newsDiv_block_left_bottom}>
-                                                        <p>CBOs and SHGs support women's income generation through group farming training and sustainable agriculture practices for small farmers. The initiative promotes organic farming and community-managed grain banks.</p>
+                                                        <p>CBOs and SHGs support women&apos;s income generation through group farming training and sustainable agriculture practices for small farmers. The initiative promotes organic farming and community-managed grain banks.</p>
                                                     </div>
                                             </div>
                                             <div className={styles.newsDiv_block_right}>
