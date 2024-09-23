@@ -58,7 +58,7 @@ export default function Navbar (){
                                         
                                     </Link>
 
-                                    <Link href='/Donate' className={router.pathname === '/Projects' ? styles.signupdiv_active : styles.signupdiv}>
+                                    <Link href='/Donate' className={router.pathname === '/Donate' ? styles.signupdiv_active : styles.signupdiv}>
                                         <p className={styles.signuptext}>Donate</p>
                                     
                                     </Link>
