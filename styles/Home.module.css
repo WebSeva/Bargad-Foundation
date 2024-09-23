@@ -44,31 +44,35 @@
   }
   .topDiv{
     width: 100dvw;
-    height: 100dvh;
+    height:  90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     /* background: linear-gradient(180deg, #FFF 0%, #419C70 100%); */
    
+    
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+     
+   
   
   }
   .topDiv_photoDiv{
-    width: 100dvw;
-    height: 95%;
+    width: 100%;
+    height: 100%;
    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 4rem;
+   
+    border: 1px solid black;
+   
   }
   .photoDiv_photoFrame{
     position: relative;
-    width: 90%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     border: 1px solid black;
-    border-radius: 40px;
+   
     box-shadow: 0px 6px 10px;
     overflow: hidden;
    
@@ -131,9 +135,9 @@
   }
   .photoFrame_image{
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: cover;
-    border-radius: 40px;
+  
    
     
    
@@ -193,6 +197,7 @@
   }
   
   .infoDiv{
+    margin-top: 10px;
     width: 100dvw;
     height: auto;
     display: flex;
@@ -200,6 +205,8 @@
     align-items: center;
     color: black;
     font-family: 'Inter';
+    border: 1px solid black;
+    
   }
   
   .infoDiv_header{
@@ -207,11 +214,11 @@
     font-family:"Inter";
     font-weight: normal;
     font-size: 2.9rem;
-    font-weight: bold;
+    font-weight: 500;
    
   }
   .infoDiv_spacer{
-    margin-top: 0.9rem;
+    margin-top: 0.7rem;
     width: 10%;
     height: 0.2rem;
     background-color: black;
@@ -227,6 +234,7 @@
     align-items: center;
     justify-content: center;
     text-align: left;
+    margin-bottom: 5.5rem;
     
   }
   .infoDiv_highlightedtext{
@@ -290,7 +298,7 @@
   .milestoneDiv{
     width: 100dvw;
     height: 60dvh;
-    background-color: #419C70;
+    background-color: #24D2B9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -315,6 +323,8 @@
   
   .milestoneDiv_left_header{
     font-size: 4.2rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0,0.8);
   }
   .milestoneDiv_left_subheader{
     margin-top: 0.8rem;
@@ -334,7 +344,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
    
   }
   .milestoneDiv_right_bottom{
@@ -352,8 +362,8 @@
    
   }
   .milestoneDiv_right_top_block_second{
-    margin-top: 2rem;
-    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
     
   }
   .milestoneDiv_right_bottom_block{
@@ -362,8 +372,8 @@
   }
   .milestoneDiv_right_bottom_block_second{
     margin-top: 1.5rem;
-    margin-left: 5rem;
-    margin-bottom: 1rem;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
   }
   
   .block_top{
@@ -381,10 +391,13 @@
     font-size: 2.5rem;
     margin-left: 0.5rem;
     font-weight: normal;
+    color: rgb(0, 0, 0,0.8);
   }
   .block_top_description{
-    margin-top: 0.65rem;
+    margin-top: 0.8rem;
      font-size: 1.5rem;
+     line-height: 2.1rem;
+     color: rgb(0, 0, 0,0.8);
     
   }
   .newsDiv{
@@ -535,6 +548,10 @@
     line-height: 2.4rem;
     font-weight: 250;
   }
+
+  .newsDiv_top_header{
+    font-weight: 500;
+  }
   
   .volunteerDiv{
    
@@ -544,6 +561,11 @@
     flex-direction: column;
     align-items: center;
     color: black;
+  }
+  
+
+  .volunteerDiv_top_header{
+    font-weight: 500;
   }
   .volunteerDiv_spacer{
     margin-top: 2.5rem;
@@ -584,9 +606,10 @@
     text-align: center;
    
     border-radius: 10px;
+    border: 1px solid black;
   }
   .volunteerDiv_card_top{
-    margin-top: 1rem;
+    margin-top: 2rem;
     height: 70%;
     
   }
@@ -607,12 +630,12 @@
     line-height: 1.8rem;
   }
   .volunteerDiv_card_bottom{
-    margin-top: 2.8rem;
+    margin-top: 2.2rem;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 12%;
+    height: 10%;
   }
   .volunteerDiv_card_button{
     border: 2px solid black;
@@ -701,6 +724,7 @@
     justify-content: center;
     background-color: white;
     /* background: linear-gradient(180deg, #FFF 0%, #419C70 100%); */
+   
   
 
   }
@@ -932,7 +956,7 @@
   .milestoneDiv{
     width: 100dvw;
     height: auto;
-    background-color: #419C70;
+    background-color: #24D2B9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -959,6 +983,7 @@
     font-weight: 500;
     font-size: 2.8rem;
     text-align: center;
+    color: rgb(0, 0, 0,0.8);
     
   }
   .milestoneDiv_left_subheader{
@@ -989,6 +1014,7 @@
     font-size: 2.5rem;
     margin-left: 0rem;
     font-weight: normal;
+    color: rgb(0, 0, 0,0.8);
   }
 
   .milestoneDiv_right_top{
@@ -1023,6 +1049,7 @@
     margin-top: 0.65rem;
     font-size: 2rem;
     width: 100%;
+    color: rgb(0, 0, 0,0.8);
    
   }
 
@@ -1038,9 +1065,8 @@
   }
 
   .milestoneDiv_right_bottom_block_second{
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     margin-left: 0rem;
-    margin-bottom: 1rem;
   }
 
   .newsDiv{

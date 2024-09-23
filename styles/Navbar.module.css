@@ -3,6 +3,10 @@
     .mainnav{
         background-color: transparent;
         width: 100vw;
+        position: absolute;
+        top: 5;
+        left: 0;
+        z-index: 1000;
     }
     .mainnav ul{
       background-color: none;
@@ -11,13 +15,15 @@
       align-items: center;
       justify-content: center;
       padding: 15px; /* Add padding or adjust as needed */
-      
+     
+     
     
     }
     
   .logoContainer {
     display: flex;
     align-items: center; 
+   
   }
     .mainnav li{
      
@@ -35,17 +41,20 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-      
+        
     }
-    .logoimage{
+    .logoImage{
      margin-left: 10px;
+     border-radius: 50%;
+     margin-right: 0.25rem;
      
     }
     .logoname{
       margin-left: 10px;
       font-family: "Inter";
-      
-     font-size: 2.2rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: white;
     }
     .signupdiv{
       justify-content: center;
@@ -54,7 +63,7 @@
      
    
       font-family: "Inter";
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       
       width: 150px;
     
@@ -69,7 +78,7 @@
      
    
       font-family: "Inter";
-      font-size: 1.4rem;
+    font-size: 1.4rem;
       
       width: 150px;
     
@@ -83,7 +92,9 @@
     .signuptext{
       margin-left: 10px;
       margin-right: 5px;
-      font-size: 1.2rem;
+      font-size: 1.25rem;
+      color: white;
+      font-weight: 450;
     }
    
   
@@ -95,17 +106,22 @@
     .pageContainer{
         display: flex;
         flex-direction: row;
+       
     }
    
   }
   @media screen and (max-width: 768px) {
     .mainnav{
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100vw;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
       background-color: rgb(0, 0, 0,0.9);
+      z-index: 1000;
      
      
     }
@@ -133,6 +149,7 @@
   .logoContainer {
     display: flex;
     align-items: center; 
+    
   }
   .moreButton{
     margin-left: 10px;
@@ -150,10 +167,11 @@
       list-style: none;
       
     }
-    .logoimage{
+    .logoImage{
      margin-left: 10px;
-     height: 50px;
-     width: 50px;
+     height: 45px;
+     width: 45px;
+     border-radius: 50%;
      
     }
     .logoname{
@@ -162,6 +180,7 @@
       font-weight: bold;
       font-size: 30px;
       font-weight: 400;
+
     }
     
    
@@ -173,15 +192,18 @@
     }
 
     .pageContainer_Mobile{
-      width: 100%;
+      left: 0;
+      width: 100vw;
       height: 40vh;
       background-color: rgb(0, 0, 0,0.8);
       filter: blur(8);
+      margin-top: 4rem;
       display: flex;
       flex-direction: column;
       padding-left: 1rem;
       z-index: 1000;
-      position: absolute;
+      position: relative;
+   
       
     
     }

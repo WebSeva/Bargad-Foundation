@@ -22,7 +22,7 @@ export default function Projects (){
                     <div className={styles.newsDiv}>
                             <div className={styles.newsDiv_top}>
 
-                                        <h2 className={styles.newsDiv_top_header}>Projects by Abhilasha</h2>
+                                        <h2 className={styles.newsDiv_top_header}>Projects by Bergad</h2>
 
                             </div>
                             <div className={styles.newsDiv_bottom}>
@@ -30,18 +30,18 @@ export default function Projects (){
                                     <div className={styles.newsDiv_block_second}>
                                                 <div className={styles.newsDiv_block_second_left}>
                                                             <div className={styles.newsDiv_block_second_left_photo}>
-                                                                    <img src="/securerhimalaya.png" className={styles.newsDiv_block_second_left_photo_image} width={150} height={150}/>
+                                                                    <img src="/project.jpg" className={styles.newsDiv_block_second_left_photo_image} width={150} height={150}/>
                                                             </div>
                                                 </div>
 
                                                 <div className={styles.newsDiv_block_second_right}>
                                                         <div className={styles.newsDiv_block_second_right_top}>
-                                                            <h2 className={styles.newsDiv_block_header}>Securer Himalaya</h2>
+                                                            <h2 className={styles.newsDiv_block_header}>Krushak Vikash Samiti</h2>
                                                             <div className={styles.newsDiv_block_spacer}></div>
                                                         </div>
 
                                                         <div className={styles.newsDiv_block_second_right_bottom}>
-                                                            <p>Secure Himalaya Project in Dharchula promoted snow leopard conservation and explored local job opportunities in eco-tourism, herb and wool production.</p>
+                                                            <p>The BARGAD Foundation's Krushak Vikash Samiti (KVS) in Mayurbhanj, Odisha, supports small farmers with training in advanced agricultural techniques and essential resources to enhance productivity and livelihoods.</p>
                                                         </div>
                                                 </div>
                                                 
@@ -50,35 +50,35 @@ export default function Projects (){
                                     <div className={styles.newsDiv_block}>
                                             <div className={styles.newsDiv_block_left}>
                                                     <div className={styles.newsDiv_block_left_top}>
-                                                        <h2 className={styles.newsDiv_block_header}>Spring Shed Management Training</h2>
+                                                        <h2 className={styles.newsDiv_block_header}>Supporting Women</h2>
                                                         <div className={styles.newsDiv_block_spacer}></div>
                                                     </div>
 
                                                     <div className={styles.newsDiv_block_left_bottom}>
-                                                        <p>A Strong Seed Management Training Program under PMKSY 2.0 was held in Gangolihat, including visits to rural and water sources.</p>
+                                                        <p>CBOs and SHGs support women's income generation through group farming training and sustainable agriculture practices for small farmers. The initiative promotes organic farming and community-managed grain banks.</p>
                                                     </div>
                                             </div>
                                             <div className={styles.newsDiv_block_right}>
                                                         <div className={styles.newsDiv_block_right_photo}>
-                                                                <img src="/SpringShed.png" className={styles.newsDiv_block_right_photo_image} width={150} height={150}/>
+                                                                <img src="/project2.jpg" className={styles.newsDiv_block_right_photo_image} width={150} height={150}/>
                                                         </div>
                                             </div>
                                     </div>
                                     <div className={styles.newsDiv_block_second}>
                                                 <div className={styles.newsDiv_block_second_left}>
                                                             <div className={styles.newsDiv_block_second_left_photo}>
-                                                                    <img src="/AccountingTraining.png" className={styles.newsDiv_block_second_left_photo_image} width={150} height={150}/>
+                                                                    <img src="/checkup.jpg" className={styles.newsDiv_block_second_left_photo_image} width={150} height={150}/>
                                                             </div>
                                                 </div>
 
                                                 <div className={styles.newsDiv_block_second_right}>
                                                         <div className={styles.newsDiv_block_second_right_top}>
-                                                            <h2 className={styles.newsDiv_block_header}>Accounting Training</h2>
+                                                            <h2 className={styles.newsDiv_block_header}>Checkup Camps</h2>
                                                             <div className={styles.newsDiv_block_spacer}></div>
                                                         </div>
 
                                                         <div className={styles.newsDiv_block_second_right_bottom}>
-                                                            <p>An accounting training workshop under PMKSY 2.0 was held in Dasaithal, Gangolihat, for Gram Panchayat staff and implementation committee members, with 30 participants.</p>
+                                                            <p>Free check-up camp for leprosy and skin disease patients will be held every month, starting January 28, 2017, on World Leprosy Day, in Delhi NCR.</p>
                                                         </div>
                                                 </div>
                                                 
@@ -87,57 +87,41 @@ export default function Projects (){
                                     <div className={styles.newsDiv_block}>
                                             <div className={styles.newsDiv_block_left}>
                                                     <div className={styles.newsDiv_block_left_top}>
-                                                        <h2 className={styles.newsDiv_block_header}>Nursery Development</h2>
+                                                        <h2 className={styles.newsDiv_block_header}>Tree Plantation</h2>
                                                         <div className={styles.newsDiv_block_spacer}></div>
                                                     </div>
 
                                                     <div className={styles.newsDiv_block_left_bottom}>
-                                                        <p>A workshop in Berinag trained 25 women from the Shiv Shakti Self Help Group in nursery development under the Women Component Project.</p>
+                                                        <p>Plantation of fruit trees across India to combat deforestation, with a target of 100,000 trees successfully achieved.</p>
                                                     </div>
                                             </div>
                                             <div className={styles.newsDiv_block_right}>
                                                         <div className={styles.newsDiv_block_right_photo}>
-                                                                <img src="/WomenComponent.png" className={styles.newsDiv_block_right_photo_image} width={150} height={150}/>
+                                                                <img src="/plantation.jpg" className={styles.newsDiv_block_right_photo_image} width={150} height={150}/>
                                                         </div>
                                             </div>
                                     </div>
                                     <div className={styles.newsDiv_block_second}>
                                                 <div className={styles.newsDiv_block_second_left}>
                                                             <div className={styles.newsDiv_block_second_left_photo}>
-                                                                    <img src="/VanPanchayat.png" className={styles.newsDiv_block_second_left_photo_image} width={150} height={150}/>
+                                                                    <img src="/cleanup.jpeg" className={styles.newsDiv_block_second_left_photo_image} width={150} height={150}/>
                                                             </div>
                                                 </div>
 
                                                 <div className={styles.newsDiv_block_second_right}>
                                                         <div className={styles.newsDiv_block_second_right_top}>
-                                                            <h2 className={styles.newsDiv_block_header}>Van Panchayat Workshop</h2>
+                                                            <h2 className={styles.newsDiv_block_header}>Senva Pond Clean Intiative</h2>
                                                             <div className={styles.newsDiv_block_spacer}></div>
                                                         </div>
 
                                                         <div className={styles.newsDiv_block_second_right_bottom}>
-                                                            <p>Our mission is to improve the lives of people in remote Pithoragarh, Uttarakhand.</p>
+                                                            <p>In August 2015, BARGAD and Yamuna Rakshak Dal cleaned Senva Pond near Vrindavan, improving turtle habitat and providing clean water for villagers. The initiative featured the first Yamuna Aarti to promote tourism and introduced a mini biogas plant, recognized by Shri Dharmendra Pradhan.</p>
                                                         </div>
                                                 </div>
                                                 
                                                 {/* <br/> we run a school and implement various developmental activities in 50 villages, aiming to provide quality education and reduce rural migration. */}
                                     </div>
-                                    <div className={styles.newsDiv_block}>
-                                            <div className={styles.newsDiv_block_left}>
-                                                    <div className={styles.newsDiv_block_left_top}>
-                                                        <h2 className={styles.newsDiv_block_header}>Capacity Buildup Program</h2>
-                                                        <div className={styles.newsDiv_block_spacer}></div>
-                                                    </div>
-
-                                                    <div className={styles.newsDiv_block_left_bottom}>
-                                                        <p>We recently had our big meet-up at Kashipur with over 120 + schools joining on shared vision of making education more accessible</p>
-                                                    </div>
-                                            </div>
-                                            <div className={styles.newsDiv_block_right}>
-                                                        <div className={styles.newsDiv_block_right_photo}>
-                                                                <img src="/CapacityBuildup.png" className={styles.newsDiv_block_right_photo_image} width={150} height={150}/>
-                                                        </div>
-                                            </div>
-                                    </div>
+                                    
                                     
                                    
                             </div>
