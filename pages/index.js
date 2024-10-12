@@ -71,7 +71,7 @@ export default function Home() {
                 <div className={styles.infoDiv_spacer}></div>
                 <div className={styles.infoDiv_descriptionDiv}>
                   <p className={styles.infoDiv_paragraph}>
-                      <span className={styles.infoDiv_highlightedtext}>BARGAD Foundation</span> is a non-profit organization dedicated to fostering peace, non-violence, and human development. Inspired by the principles of Vedic philosophy and great leaders like Swami Vivekananda and Mahatma Gandhi, we aim to create a harmonious and inclusive society. Through various social and cultural initiatives, we work to uplift communities and promote sustainable growth.
+                      <span className={styles.infoDiv_highlightedtext}>BARGAD (Bhartiye Alteriye Research Growth and Diversity Foundation)</span> is a non-profit organization dedicated to fostering peace, non-violence, and human development. Inspired by the principles of Vedic philosophy and great leaders like Swami Vivekananda and Mahatma Gandhi, we aim to create a harmonious and inclusive society. Through various social and cultural initiatives, we work to uplift communities and promote sustainable growth.
                   </p>
                   <p className={styles.infoDiv_paragraph}>
                   At BARGAD, we are more than just an organization; we are a movement dedicated to the holistic development of society. Join us in our mission to create a peaceful and egalitarian world, where every individual has the opportunity to thrive.

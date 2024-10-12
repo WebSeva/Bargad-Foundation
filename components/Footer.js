@@ -6,7 +6,7 @@ export default function Footer (){
              <div className={styles.footerDiv_body}> 
                 <div className={styles.footerDiv_top_left}>
                         <div className={styles.left_body}>
-                                <h2 className={styles.left_header}>Bargad <br/> Foundation</h2>
+                                <h2 className={styles.left_header}>Bargad </h2>
                                 <div className={styles.left_bottom}>
                                     <img src='/mail.png' width={25} height={25}/>
                                     <p className={styles.left_paragraph}>bargad.ngo@gmail.com</p>
@@ -60,7 +60,7 @@ export default function Footer (){
                                 <img src='/copyright2.png' width={25} height={25}/>
                             
                             </div>
-                            <p className={styles.footerDiv_bottom_left_header}>Bargad Foundation, 2024</p>
+                            <p className={styles.footerDiv_bottom_left_header}>Bargad, 2024</p>
                     </div>
                     <div className={styles.footerDiv_bottom_right}>
                         
