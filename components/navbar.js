@@ -35,7 +35,7 @@ export default function Navbar (){
                     <div className={styles.navbar_body}>
                             <Link href={'/'}>
                                 <div className={styles.logoContainer}>
-                                    <img src='/logo.webp' width={45} height={45} className={styles.logoImage}/>
+                                    <img src='/logo.png' width={45} height={45} className={styles.logoImage}/>
                                     <p className={styles.logoname}>Bargad</p>
                                 </div>
                             </Link>

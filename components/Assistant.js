@@ -144,7 +144,7 @@ export default function Assistant (){
                                         {typing && <p>Assistant is typing...</p>}
                             </div>
                         </div>
-                        </div>
+                    </div>
                     <div className={styles.chat_bottomDiv}>
                         <div className={styles.chat_bottomDiv_textInput}>
                           <input type='text' className={styles.textInput} onChange={onQueryChange} placeholder='Ask me anything' onKeyPress={handleKeyPress} value={query}/>
