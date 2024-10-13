@@ -54,7 +54,7 @@
       font-family: "Inter";
       font-size: 1.4rem;
       font-weight: 500;
-      color: white;
+      color: black;
     }
     .signupdiv{
       justify-content: center;
@@ -93,7 +93,7 @@
       margin-left: 10px;
       margin-right: 5px;
       font-size: 1.25rem;
-      color: white;
+      color: black;
       font-weight: 450;
     }
    
@@ -180,6 +180,7 @@
       font-weight: bold;
       font-size: 30px;
       font-weight: 400;
+      color: white;
 
     }
     

@@ -130,8 +130,12 @@
         text-align: left;
         font-size: 0.9rem;
         line-height: 1.4rem;
-        padding: 8px;
-        border-radius: 10px;
+        padding: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+       
         background-color: #419C70;
     }
 }

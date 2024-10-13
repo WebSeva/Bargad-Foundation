@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bargad Foundation</title>
+        <title>Bargad NGO</title>
         <meta name="description" content="BARGAD Foundation is a non-profit organization dedicated to fostering peace, non-violence, and human development. Inspired by the principles of Vedic philosophy and great leaders like Swami Vivekananda and Mahatma Gandhi, we aim to create a harmonious and inclusive society. Through various social and cultural initiatives, we work to uplift communities and promote sustainable growth." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -199,7 +199,7 @@ export default function Home() {
                                     </div>
                                    
                                     <div className={styles.volunteerDiv_card_bottom}>
-                                          <Link href={"https://forms.gle/igj1sS3Cu1FCwd2XA"} className={styles.volunteerDiv_card_button}>
+                                          <Link href={"/Donate"} className={styles.volunteerDiv_card_button}>
                                                 <h2 className={styles.volunteerDiv_card_button_text}>Support Us</h2>
                                           </Link>
                                     </div>

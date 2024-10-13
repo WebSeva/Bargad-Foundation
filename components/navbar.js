@@ -42,9 +42,9 @@ export default function Navbar (){
 
                             {windowSize.width > 769 ?
                                 <div className={styles.pageContainer}>
-                                    {/* <Link href={'/AboutUs'} className={router.pathname === '/AboutUs' ? styles.signupdiv_active : styles.signupdiv}>
+                                    <Link href={'/AboutUs'} className={router.pathname === '/AboutUs' ? styles.signupdiv_active : styles.signupdiv}>
                                         <p className={styles.signuptext}>About Us</p>
-                                    </Link> */}
+                                    </Link>
                                      <Link href='/Projects' className={router.pathname === '/Projects' ? styles.signupdiv_active : styles.signupdiv}>
                                         <p className={styles.signuptext}>Projects</p>
                                     
