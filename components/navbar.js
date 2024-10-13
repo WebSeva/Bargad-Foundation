@@ -86,10 +86,10 @@ export default function Navbar (){
                                         <p className={styles.signuptext}>Projects</p>
                                     
                                     </Link>
-                                    {/* <Link href="/GetInvolved" className={styles.page_link}>
-                                        <p className={styles.signuptext}>Get Involved</p>
+                                    <Link href="/AboutUs" className={styles.page_link}>
+                                        <p className={styles.signuptext}>About Us</p>
                                     </Link>
-                                 */}
+                                
                                     <Link href="/ContactUs" className={styles.page_link}>
                                         <p className={styles.signuptext}>Contact Us</p>
                                         
