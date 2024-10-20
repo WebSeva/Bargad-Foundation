@@ -105,3 +105,9 @@ a {
     color-scheme: dark;
   }
 }
+
+@media screen and (max-width: 769px) {
+  html {
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}

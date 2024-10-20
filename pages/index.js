@@ -30,7 +30,8 @@ export default function Home() {
       <Head>
         <title>Bargad NGO</title>
         <meta name="description" content="BARGAD Foundation is a non-profit organization dedicated to fostering peace, non-violence, and human development. Inspired by the principles of Vedic philosophy and great leaders like Swami Vivekananda and Mahatma Gandhi, we aim to create a harmonious and inclusive society. Through various social and cultural initiatives, we work to uplift communities and promote sustainable growth." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, viewport-fit=cover" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
@@ -134,7 +135,7 @@ export default function Home() {
             </div>
 
             
-            {/* <div className={styles.newsDiv}>
+            <div className={styles.newsDiv}>
                   <div className={styles.newsDiv_top}>
 
                         <h2 className={styles.newsDiv_top_header}>What&apos;s new in Bargad?</h2>
@@ -145,17 +146,17 @@ export default function Home() {
                               <div className={styles.newsDiv_block}>
                                           <div className={styles.newsDiv_block_left}>
                                                 <div className={styles.newsDiv_block_left_top}>
-                                                      <h2 className={styles.newsDiv_block_header}>Our meet at Kashipur</h2>
+                                                      <h2 className={styles.newsDiv_block_header}>SBI Asha Scholarship</h2>
                                                       <div className={styles.newsDiv_block_spacer}></div>
                                                 </div>
 
                                                 <div className={styles.newsDiv_block_left_bottom}>
-                                                      <p>We recently had our big meet-up at Kashipur with over 120 + schools joining on shared vision of making education more accessible</p>
+                                                      <p>The SBIF Asha Scholarship Program 2024, one of India's largest scholarship programs, is an initiative of the SBI Foundation under its education vertical. <Link href={"https://www.sbifashascholarship.org/#scholarships"} style={{color:"blue"}}>Apply Now</Link></p>
                                                 </div>
                                           </div>
                                           <div className={styles.newsDiv_block_right}>
                                                       <div className={styles.newsDiv_block_right_photo}>
-                                                            <img src="/meeting.jpg" className={styles.newsDiv_block_right_photo_image} width={150} height={150}/>
+                                                            <img src="/children.jpg" className={styles.newsDiv_block_right_photo_image} width={150} height={150}/>
                                                       </div>
                                           </div>
                               </div>
@@ -163,18 +164,18 @@ export default function Home() {
                               <div className={styles.newsDiv_block_second}>
                                           <div className={styles.newsDiv_block_second_left}>
                                                       <div className={styles.newsDiv_block_second_left_photo}>
-                                                            <img src="/office.jpg" className={styles.newsDiv_block_second_left_photo_image} width={150} height={150}/>
+                                                            <img src="/pm.png" className={styles.newsDiv_block_second_left_photo_image} width={150} height={150}/>
                                                       </div>
                                           </div>
 
                                           <div className={styles.newsDiv_block_second_right}>
                                                 <div className={styles.newsDiv_block_second_right_top}>
-                                                      <h2 className={styles.newsDiv_block_header}>New office at Haldwani</h2>
+                                                      <h2 className={styles.newsDiv_block_header}>PM Intership Scheme 2024</h2>
                                                       <div className={styles.newsDiv_block_spacer}></div>
                                                 </div>
 
                                                 <div className={styles.newsDiv_block_second_right_bottom}>
-                                                      <p>We recently opened a new office in Haldwani, where we will provide training to upskill the youth with in-demand skills.</p>
+                                                      <p>The Indian Corporate Affairs Ministry launched the PM Internship Scheme 2024 in an attempt to empower youth. Registrations began on 12 October 2024, offering a one-year internship program. <Link href={"https://pminternship.mca.gov.in/"} style={{color:'blue'}}>Apply Now</Link></p>
                                                 </div>
                                           </div>
                                           
@@ -183,7 +184,7 @@ export default function Home() {
                   </div>
 
 
-            </div> */}
+            </div>
             <div className={styles.volunteerDiv}>
 
                   <div className={styles.volunteerDiv_top}>

@@ -40,6 +40,7 @@ export default function Footer (){
                                 Directions
                             </Link> */}
                     </div>
+                 
                     <div className={styles.link_list_two}>
                             {/* <Link href={'/AboutUs'} className={styles.link}>
                                 About Us
@@ -61,6 +62,9 @@ export default function Footer (){
                             
                             </div>
                             <p className={styles.footerDiv_bottom_left_header}>Bargad, 2024</p>
+                    </div>
+                    <div className={styles.footerDiv_bottom_WebSeva}>
+                          <p>powered by <Link href={"https://www.webseva.org"} className={styles.WebSeva_text}>WebSeva</Link></p>
                     </div>
                     <div className={styles.footerDiv_bottom_right}>
                         
