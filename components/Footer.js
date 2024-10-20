@@ -64,7 +64,7 @@ export default function Footer (){
                             <p className={styles.footerDiv_bottom_left_header}>Bargad, 2024</p>
                     </div>
                     <div className={styles.footerDiv_bottom_WebSeva}>
-                          <p>powered by <Link href={"https://www.webseva.org"} className={styles.WebSeva_text}>WebSeva</Link></p>
+                          <p>powered by <Link href={"https://www.webseva.org"} target={'on_blank'} className={styles.WebSeva_text}>WebSeva</Link></p>
                     </div>
                     <div className={styles.footerDiv_bottom_right}>
 
