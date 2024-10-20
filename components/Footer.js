@@ -67,8 +67,6 @@ export default function Footer (){
                           <p>powered by <Link href={"https://www.webseva.org"} className={styles.WebSeva_text}>WebSeva</Link></p>
                     </div>
                     <div className={styles.footerDiv_bottom_right}>
-                        
-                        
 
                         <Link href={''} target='on_blank'>
                              <img src='/linkedin.png' className={styles.social_image} width={30} height={30}/>  

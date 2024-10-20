@@ -665,6 +665,9 @@
   .footerContainer{
     margin-top: 2rem;
   }
+  .apply_link{
+    color:blue;
+  }
  
 }
 
@@ -1399,6 +1402,9 @@
   }
   .footerContainer{
     margin-top: auto;
+  }
+  .apply_link{
+    color: blue;
   }
 }
 

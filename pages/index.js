@@ -151,7 +151,7 @@ export default function Home() {
                                                 </div>
 
                                                 <div className={styles.newsDiv_block_left_bottom}>
-                                                      <p>The SBIF Asha Scholarship Program 2024, one of India's largest scholarship programs, is an initiative of the SBI Foundation under its education vertical. <Link href={"https://www.sbifashascholarship.org/#scholarships"} style={{color:"blue"}}>Apply Now</Link></p>
+                                                      <p>The SBIF Asha Scholarship Program 2024, one of India's largest scholarship programs, is an initiative of the SBI Foundation under its education vertical. <Link href={"https://www.sbifashascholarship.org/#scholarships"} target={"on_blank"} className={styles.apply_link}>Apply Now</Link></p>
                                                 </div>
                                           </div>
                                           <div className={styles.newsDiv_block_right}>
@@ -175,7 +175,7 @@ export default function Home() {
                                                 </div>
 
                                                 <div className={styles.newsDiv_block_second_right_bottom}>
-                                                      <p>The Indian Corporate Affairs Ministry launched the PM Internship Scheme 2024 in an attempt to empower youth. Registrations began on 12 October 2024, offering a one-year internship program. <Link href={"https://pminternship.mca.gov.in/"} style={{color:'blue'}}>Apply Now</Link></p>
+                                                      <p>The Indian Corporate Affairs Ministry launched the PM Internship Scheme 2024 in an attempt to empower youth. Registrations began on 12 October 2024, offering a one-year internship program. <Link href={"https://pminternship.mca.gov.in/"} target={"on_blank"} className={styles.apply_link}>Apply Now</Link></p>
                                                 </div>
                                           </div>
                                           
