@@ -151,7 +151,7 @@ export default function Home() {
                                                 </div>
 
                                                 <div className={styles.newsDiv_block_left_bottom}>
-                                                      <p>The SBIF Asha Scholarship Program 2024, one of India's largest scholarship programs, is an initiative of the SBI Foundation under its education vertical. <Link href={"https://www.sbifashascholarship.org/#scholarships"} target={"on_blank"} className={styles.apply_link}>Apply Now</Link></p>
+                                                      <p>The SBIF Asha Scholarship Program 2024, one of India&apos;s largest scholarship programs, is an initiative of the SBI Foundation under its education vertical. <Link href={"https://www.sbifashascholarship.org/#scholarships"} target={"on_blank"} className={styles.apply_link}>Apply Now</Link></p>
                                                 </div>
                                           </div>
                                           <div className={styles.newsDiv_block_right}>
